@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>FORM</title>
+<style>
+body
+{
+color:white; 
+font-size:30px;
+}
+h1{
+color:white;
+}
+input{
+font-size:20px;	
+}
+button{
+font-size:20px;	
+}
+textarea{
+height:100px;
+width:500px;
+}
+</style>
+<body background="wp2930235.jpg">
+<h1>WELCOME</h1>
+<p>
+<form action="signin.php" method="post" >
+<fieldset>
+<legend>SIGN UP</legend>
+  User Id:&nbsp&nbsp&nbsp&nbsp&nbsp
+  <input type="text" name="UID" ><br>
+
+  Name:
+  <input type="text" name="firstname" ><br>
+
+  <br>Gender:<br>
+ <input type="radio" name="gender" value="male"> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other <br> 
+
+<br>Email-id:  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  <input type="text" name="Email-id" ><br>
+  Password:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  <input type="password" name="password" ><br>
+ Confirm Password:&nbsp	<!--hjkhhkj-->
+  <input type="password" name="password" ><br>
+ 
+  <br>DOB:
+  <input type="Date" name="DOB"><br>
+
+<br>
+ADDRESS:<br><textarea></textarea>
+<br> 	
+<button type="Submit">Submit</button> 
+<input type="reset"  onclick="alert ('Sure to Reset???')"  value="Reset"><br>
+</input>
+</fieldset>
+</form>
+</p>
+</body>
+</head>
+</html>

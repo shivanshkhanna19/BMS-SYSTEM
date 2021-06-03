@@ -1,0 +1,99 @@
+<html>
+<style>
+body{
+background-size:cover;
+color:white;
+}
+</style>
+<body background="wp2930235.jpg">
+
+<center>
+<div id="main">
+<h1 id="title" class="text-center "><i class="fab faaccusoft"></i>Survey Form</h1>
+    <div class="container">
+      <div class="row">
+        <div  class="collg-12 colmd12 textcenter">
+          <p id="description">Welcome</p>
+        </div>
+      </div>
+
+        <form id="survey-form">
+          <div class="row  mb3">
+            <div class="collg4 colmd4 colsm4">
+              <label id="name-label" for="#name"><sup>*</sup>Name:</label>
+            </div>
+            <div class="collg8 colmd8 colsm8">
+              <input class="form-control" type="text" id="name"  name="name" required placeholder="Name">
+            </div>
+          </div>
+          <div class="row  mb3">
+            <div class="collg4 colmd4 colsm4">
+              <label id="email-label" for="#email"><sup>*</sup>Email:</label>
+            </div>
+            <div class="collg8 colmd8 colsm8">
+              <input class="form-control" type="email" id="email"  name="email" required="" placeholder="email@email.com">
+            </div>
+          </div>
+          <div class="row  mb3">
+            <div class="collg4 colmd4 colsm4">
+              <label id="number-label" for="#number"><sup>*</sup>Age:</label>
+            </div>
+            <div class="collg8 colmd8 colsm8">
+              <input class="form-control" type="number" id="number" min="1" max="19" name="number" required="" placeholder="age">
+            </div>
+          </div>
+          <div class="row mb3">
+            <div class="collg4 colmd4 colsm4">
+              <label for="#dropdown">Rate your experience with us:</label>
+            </div>
+            <div class="collg8 colmd8 colsm8">
+              <select id="dropdown">
+                <option disabled>choose followwing</option>
+                <option>Excellent</option>
+                <option>Good</option>
+                <option>Satisfactory</option>
+              </select>
+            </div>
+          </div>
+          <div class="row mb3">
+            <div class="collg4 colmd4 colsm4">
+              <label for="stars">Time for Stars:</label>
+            </div>
+            <div class="collg8 colmd8 colsm8">
+              <input type="radio" name="stars" value="5s">5 stars<br>
+              <input type="radio" name="stars" value="4s">4 stars<br>
+              <input type="radio" name="stars" value="3s">3 stars<br>
+            </div>
+          </div>
+          <div class="row mb3">
+            <div class="collg4 colmd4 colsm4">
+              <label for="stars">Things we can improve:</label>
+            </div>
+            <div class="collg8 colmd8 colsm8">
+              <input type="checkbox" name="stars" value="fe">FrontEnd<br>
+              <input type="checkbox" name="stars" value="ux">UserExperience<br>
+
+              <input type="checkbox" name="stars" value="ui">UserInterface<br>
+              <input type="checkbox" name="stars" value="cs">CustomerService<br>
+            </div>
+          </div>
+          <div class="row mbs3">
+            <div class="collg4 colmd4 colsm4">
+              <label for="comment">Any Comments or Suggestions?</label>
+            </div>
+            <div class="collg8 colmd8 colsm8">
+              <textarea class="form-control" rows="4" name="comment" placeholder="Type here ...."></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <button id="submit" class="btn btn-block btn-success"><i class="fas fa-upload"></i> Submit</button>
+            </div>
+          </div>
+        </form>
+
+    </div>
+</div>
+</center>
+</body>
+</html>
